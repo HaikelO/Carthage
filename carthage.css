@@ -30,6 +30,11 @@ body{
   padding-bottom: 5px;
 }
 /*NAVIGATION*/
+	nav.menu-droite {
+text-align: right;
+width: auto;
+float:right;
+}
 nav ul ul {
 	display: none;
 }

@@ -30,7 +30,15 @@ body{
   padding-bottom: 5px;
 }
 /*NAVIGATION*/
-nav ul ul {
+	nav.menu-droite {
+text-align: right;
+width: auto;
+float:right;
+}
+nav{
+  	background: #efefef;
+}
+.menu ul ul {
 	display: none;
 }
 
@@ -38,7 +46,7 @@ nav ul ul {
 		display: block;
 	}
 
-nav ul {
+.menu ul {
 	background: #efefef;
 	padding: 0 20px;
 	border-radius: 10px;
@@ -46,28 +54,28 @@ nav ul {
 	position: relative;
 	display: inline-table;
 }
-	nav ul:after {
+	.menu ul:after {
 		content: ""; clear: both; display: block;
 	}
 
-	nav ul li {
+	.menu ul li {
 		float: left;
 	}
-		nav ul li:hover {
+		.menu ul li:hover {
 			background: #4b545f;
 		}
-			nav ul li:hover a {
-				color: #fff;
+			.menu ul li:hover a {
+				    color: #fff;
 			}
 
-		nav ul li a {
+		.menu ul li a {
 			display: block;
       padding: 25px 40px;
 			color: #757575;
       text-decoration: none;
 		}
 
-	nav ul ul {
+	.menu ul ul {
 		background: #5f6975;
     border-radius: 0px;
     padding: 0;
@@ -75,24 +83,24 @@ nav ul {
     top: 100%;
     z-index: 22;
 	}
-		nav ul ul li {
+		.menu ul ul li {
 			float: none;
 			border-top: 1px solid #6b727c;
 			border-bottom: 1px solid #575f6a;
       position: relative;
 		}
-			nav ul ul li a {
+			.menu ul ul li a {
 				padding: 15px 40px;
 				color: #fff;
 			}
-				nav ul ul li a:hover {
+				.menu ul ul li a:hover {
 					background: #4b545f;
 				}
 
-	nav ul ul ul {
+	.menu ul ul ul {
 		position: absolute; left: 100%; top:0;
 	}
-  nav ul ul ul li a {
+  .menu ul ul ul li a {
     white-space:nowrap;
   }
 
